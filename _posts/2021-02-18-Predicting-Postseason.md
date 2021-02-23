@@ -1617,9 +1617,7 @@ It should be noted that this does not mean the Knicks' defensive performance has
 
 Next, we look at how opponent FT% and FG3% adjusted defensive rating holds up as the regular season progresses. For each of past seasons, we will find the correlation between the to-date-defensive ratings at different points of the season and rest-of-season figures.
 
-![png](_posts/Early Season Trends/Correlation graph.png)
-
-    <ggplot: (-9223371856543334016)>
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Early Season Trends/Correlation graph.png" alt="">
 
 We can see that in terms of correlation with defensive performance for the remainder of the season, using adjusted defensive ratings outperforms unadjusted defensive ratings at *every* point in the season. Of course, these are not drastic improvements in correlation and unadjusted defensive rating is already very correlated to the rest-of-season defensive rating, but the improvements are consistent at every level.
 
@@ -1796,18 +1794,11 @@ First, we empirically (using the available data) estimate the prior beta distrib
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Early Season Trends/Unfiltered distribution plots.png" alt="">
 
-
-![png](_posts/Early Season Trends/Unfiltered distribution plots.png)
-
-    <ggplot: (-9223371856543409432)>
-
 The distributions for three-point and free-throw percentage have spike at 0 and 1 because there are quite a number of players simply did not or did not take many three-pointers/free-throws through the course of the season. There are also players that played a very limited number of games or minutes in a season.
 
 We will simply limit the dataset to players with at least one attempt per game and at least twenty games played in the season.
 
-![png](_posts/Early Season Trends/Filtered distribution plots.png)
-
-    <ggplot: (-9223371856543342296)>
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Early Season Trends/Filtered distribution plots.png" alt="">
 
 By filtering the data a bit, we can see that three-point and two-point percentage are normally skewed, whereas free-throw percentage is skewed to the right. Next, we will fit the data to beta distributions.
 
