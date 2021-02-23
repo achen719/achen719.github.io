@@ -2,6 +2,7 @@
 title: "Handling Early-Season Trends in the NBA"
 layout: single
 classes: wide
+toc: true
 
 ---
 
