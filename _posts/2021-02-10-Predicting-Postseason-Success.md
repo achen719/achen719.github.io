@@ -2,7 +2,6 @@
 title: "A Naive Attempt at Predicting Postseason Success"
 layout: single
 classes: wide
-toc: true
 
 ---
 The repository for the original notebook can be found [here](https://github.com/achen719/Predicting-Playoff-Performance).
