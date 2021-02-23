@@ -1,4 +1,3 @@
-# [A Failed Attempt at Predicting Playoff Success](https://github.com/achen719/Predicting-Playoff-Performance)
 The repository for the original notebook can be found [here](https://github.com/achen719/Predicting-Playoff-Performance).
 
 The following will be an exploration on how to properly quantify postseason performance in the NBA, how the characteristics of a team's regular season performance translates to the postseason, and an initial (truthfully, naive) foray into modeling postseason success based on regular season data.
