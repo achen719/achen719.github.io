@@ -1616,7 +1616,7 @@ It should be noted that this does not mean the Knicks' defensive performance has
 
 Next, we look at how opponent FT% and FG3% adjusted defensive rating holds up as the regular season progresses. For each of past seasons, we will find the correlation between the to-date-defensive ratings at different points of the season and rest-of-season figures.
 
-![png](Early Season Trends/Correlation graph.png)
+![png](_posts/Early Season Trends/Correlation graph.png)
 
     <ggplot: (-9223371856543334016)>
 
@@ -1793,7 +1793,7 @@ Like the mean regression method used previously, doing this tempers early season
 ### Estimating a prior distribution
 First, we empirically (using the available data) estimate the prior beta distributions for each of the shooting percentages.
 
-![png](Early Season Trends/Unfiltered distribution plots.png)
+![png](_posts/Early Season Trends/Unfiltered distribution plots.png)
 
     <ggplot: (-9223371856543409432)>
 
@@ -1801,7 +1801,7 @@ The distributions for three-point and free-throw percentage have spike at 0 and 
 
 We will simply limit the dataset to players with at least one attempt per game and at least twenty games played in the season.
 
-![png](Early Season Trends/Filtered distribution plots.png)
+![png](_posts/Early Season Trends/Filtered distribution plots.png)
 
     <ggplot: (-9223371856543342296)>
 
