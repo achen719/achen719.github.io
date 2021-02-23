@@ -98,7 +98,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              :  "A log of NBA-related data science / analytics projects I have used to teach myself to think a bit better."
   location         : 
-  email            : "alchen0229@gmail.com"
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
