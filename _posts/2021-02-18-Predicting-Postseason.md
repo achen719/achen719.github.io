@@ -1793,6 +1793,9 @@ Like the mean regression method used previously, doing this tempers early season
 ### Estimating a prior distribution
 First, we empirically (using the available data) estimate the prior beta distributions for each of the shooting percentages.
 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Early Season Trends/Unfiltered distribution plots.png" alt="">
+
+
 ![png](_posts/Early Season Trends/Unfiltered distribution plots.png)
 
     <ggplot: (-9223371856543409432)>
