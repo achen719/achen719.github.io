@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "mint" #"default" "air", "aqua", "contrast", "dark", 
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Learning to Think Better"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "A log of NBA-related data science / analytics projects I have used to teach myself to think a bit better." # site tagline that appears below site title in masthead
 name                     : "Albert Chen"
 description              : 
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -96,8 +96,8 @@ analytics:
 author:
   name             : "Albert Chen"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Teaching myself to think better."
-  location         : "Who's asking?"
+  bio              : 
+  location         : "Somewhere"
   email            : "alchen0229@gmail.com"
   links:
     - label: "Email"
