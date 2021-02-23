@@ -12,13 +12,13 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "mint" #"default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" #"default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Learning to Think Better"
 title_separator          : "-"
-subtitle                 : "A log of NBA-related data science / analytics projects I have used to teach myself to think a bit better." # site tagline that appears below site title in masthead
+subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Albert Chen"
 description              : 
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -96,8 +96,8 @@ analytics:
 author:
   name             : "Albert Chen"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : 
-  location         : "Somewhere"
+  bio              :  "A log of NBA-related data science / analytics projects I have used to teach myself to think a bit better."
+  location         : 
   email            : "alchen0229@gmail.com"
   links:
     - label: "Email"
