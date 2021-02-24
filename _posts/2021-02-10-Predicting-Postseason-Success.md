@@ -776,7 +776,7 @@ df_rs_lg_adj = pd.merge(df_rs, df_lg,
                          on = ['SEASON_YEAR', 'SEASON_TYPE'],
                          suffixes = ['', '_LG_AVG']).sort_values(['SEASON_YEAR', 'SEASON_TYPE'])
 ```
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~achen719/52.embed" height="525" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~achen719/52.embed" height="1050" width="100%"></iframe>
 
 ```python
 def league_avg_adj(df):
