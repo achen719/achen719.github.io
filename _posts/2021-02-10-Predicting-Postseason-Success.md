@@ -1232,7 +1232,7 @@ We now compare the two methods of evaluating playoff performance: unadjusted off
 #### How to interpret the scatterplots
 
 * The *size* of the bubbles represent the number of wins and the *color* represents the normalized unadjusted and matchup-adjusted point differentials. 
-* For offensive rating, the higher the better and for defensive rating, the lower the better, which means that the further from the dotted $y = x$ line the higher the team's net rating.
+* For offensive rating, the higher the better and for defensive rating, the lower the better, which means that the further from the dotted \\(y = x\\) line the higher the team's net rating.
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~achen719/55.embed" height="525" width="100%"></iframe> 
 
