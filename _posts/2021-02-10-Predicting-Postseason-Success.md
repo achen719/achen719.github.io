@@ -22,43 +22,7 @@ The contents of the notebook are as follows:
 3. **Modeling for Postseason Performance with Hyperparameter Tuning**: we test how well linear regression models, support vector machines, random forest regression models, and gradient-boosted decision tree models predict postseason success.
 4. **What Went Wrong and What to Change**: we explain possible changes in approach to improve our performance.
 
-
-```python
-import pandas as pd
-import numpy as np
-from sqlalchemy import create_engine
-import plotly.graph_objs as go
-import plotly.express as px
-from plotly.subplots import make_subplots
-import plotly.figure_factory as ff
-import math
-from scipy.stats import skew
-```
-
-
-```python
-pd.set_option('display.max_rows', 500)
-pd.set_option('display.max_columns', 500)
-```
-
-
-```python
-conn = create_engine('mysql+pymysql://{user}:{pw}@localhost/{db}'.format(user='root',pw='password',db='nba_db'))
-cursor = conn.connect()
-```
-
-
-```python
-sql_statement = 'select * from boxscores_team'
-df_base = pd.read_sql(sql_statement, conn)
-```
-
 The data was scraped from the official NBA stats webpage and consists of team-level boxscores -- summary statistics of a team's performance in a game -- from the 1997-98 NBA season to the 2020-21 NBA season. A copy of the unwrangled data has been supplied in the repository.
-
-
-```python
-df = df_base.copy()
-```
 
 #### Creating, deleting, and aggregating variables
 
